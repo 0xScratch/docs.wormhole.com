@@ -58,6 +58,10 @@
 - [Overview](connect/overview.md)
 - [Configuration](connect/configuration.md)
 
+## NTT
+
+- [Overview](ntt/overview.md)
+
 ## Queries
 
 - [Overview](queries/overview.md)
