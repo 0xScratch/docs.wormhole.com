@@ -30,3 +30,7 @@ If users bridge frequently between a given source chain and destination chain, t
 The Global Accountant is a defense-in-depth security feature that performs accounting integrity checks on every token transfer. This feature ensures that there cannot be more tokens burned and transferred out of a chain than were ever minted.
 
 Accounting is enforced transparently on [**Wormhole Gateway**](https://wormhole.com/gateway/) by the guardians, who will not attest to an NTT transfer if it violates integrity checks.
+
+### Integrate Frontend
+
+Implement **[Wormhole Connect](https://docs.wormhole.com/wormhole/wormhole-connect/overview)** or utilize the **[Wormhole SDK](https://docs.wormhole.com/wormhole/reference/sdk-docs)** to provide a seamless end user experience.   
