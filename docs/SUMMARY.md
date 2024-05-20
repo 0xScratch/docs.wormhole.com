@@ -60,7 +60,27 @@
 
 ## NTT
 
-- [Overview](ntt/overview.md)
+- [Overview](native-token-transfers/overview/README.md)
+  - [Components](native-token-transfers/overview/system-components.md)
+  - [Deployment Models](native-token-transfers/overview/deployment-models.md)
+- [Getting started](native-token-transfers/getting-started/README.md)
+  - [Deployment Overview](native-token-transfers/getting-started/deployment-overview.md)
+  - [Evm Installation](native-token-transfers/getting-started/evm-installation.md)
+  - [Solana Installation](native-token-transfers/getting-started/solana-installation.md)
+  - [Evm Deploymnet](native-token-transfers/getting-started/evm-deployment.md)
+  - [Solana Deployment](native-token-transfers/getting-started/solana-deployment.md)
+  - [Cross Registration](native-token-transfers/getting-started/cross-registrations.md)
+  - [NTT Configuration](native-token-transfers/getting-started/ntt-configuration.md)
+  - [Integrate Frontend](native-token-transfers/getting-started/integrate-frontend.md)
+  - [Monitor and Maintain](native-token-transfers/getting-started/monitor-and-maintain.md)
+- [Advanced Setup](native-token-transfers/advanced-setup/README.md)
+  - [Custom Transceiver](native-token-transfers/advanced-setup/custom-transceiver.md)
+  - [setMinter](native-token-transfers/advanced-setup/setminter-on-your-token.md)
+  - [Governance and Upgradability](native-token-transfers/advanced-setup/governance-and-upgradeability.md)
+- [Architecture](native-token-transfers/architecture/README.md)
+  - [Evm Message Lifecycel](native-token-transfers/architecture/evm-message-lifecycle.md)
+  - [Solana Message Lifecycel](native-token-transfers/architecture/solana-message-lifecycle.md)
+- [FAQs](native-token-transfers/faqs/README.md)
 
 ## Queries
 
