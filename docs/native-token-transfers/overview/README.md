@@ -21,5 +21,5 @@ For existing token deployments, the framework can be used in locking mode which 
 *   **Token Bridge:** Suited for straightforward multichain deployments, the Token Bridge allows multichain transfers through a pure lock and mint mechanism. Integrators do not need to deploy transfer contracts, instead attesting token details onto a target chain. When transferring, tokens are locked in the Token Bridge contract controlled by the Wormhole guardian network on the source chain and minted on the destination chain. The Token Bridge also supports sending tokens with some additional data in the form of arbitrary byte payload attached to the token transfer.
 
 {% hint style="info" %} 
-    [Learn more](https://docs.wormhole.com/wormhole/explore-wormhole/vaa) about VAAs, the core messaging primitive in the Wormhole network 
+[Learn more](https://docs.wormhole.com/wormhole/explore-wormhole/vaa) about VAAs, the core messaging primitive in the Wormhole network 
 {% endhint %}

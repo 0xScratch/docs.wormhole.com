@@ -49,7 +49,9 @@ Example arguments
 
 Save the deployed proxy contract addresses from the script output in the `WormholeNttConfig.json` file.
 
-{% hint style="danger" %} Ensure that if the `NttManager` on the original hub chain is configured to be in `LOCKING` mode, the corresponding `NttManager` contracts on the destination spoke chains are configured to be in `BURNING` mode. If not, transfers will not go through successfully and user funds may be lost. {% endhint %}
+{% hint style="danger" %} 
+Ensure that if the `NttManager` on the original hub chain is configured to be in `LOCKING` mode, the corresponding `NttManager` contracts on the destination spoke chains are configured to be in `BURNING` mode. If not, transfers will not go through successfully and user funds may be lost. 
+{% endhint %}
 
 #### Configure Contracts
 

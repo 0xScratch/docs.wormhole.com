@@ -16,5 +16,7 @@ Responsible for sending NTT transfers forwarded through the manager on the sourc
 ![NTT Architecture Diagram](https://images.ctfassets.net/n8aw1cra6v98/4jizzBOHn0tqPJUcz3pp1o/35bc72fe98cfa074cfc8494b44dfcf3b/Graph__1_.webp)
 
 {% hint style="info" %} 
-    [Learn more](https://docs.wormhole.com/wormhole/explore-wormhole/security) about the core trust assumptions of the Wormhole network and its security model 
+
+[Learn more](https://docs.wormhole.com/wormhole/explore-wormhole/security) about the core trust assumptions of the Wormhole network and its security model 
+
 {% endhint %} 

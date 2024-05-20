@@ -9,7 +9,7 @@ Important trade-offs to note are **cost** and **liveness**. More verifiers incre
 ![Custom Attestation Architecture](https://images.ctfassets.net/n8aw1cra6v98/gR9UaleOCChELDo0qXgSi/8a250958517a7fa253d703141875caee/Graph-1.webp)
 
 {% hint style="info" %} 
-    NTT supports custom verification models through custom transceivers. For more details, contact Wormhole core contributors 
+NTT supports custom verification models through custom transceivers. For more details, contact Wormhole core contributors 
 {% endhint %} 
 
 ### Implementation
