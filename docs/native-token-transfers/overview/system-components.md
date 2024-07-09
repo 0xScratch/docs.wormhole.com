@@ -1,4 +1,4 @@
-### System Components
+## System Components
 
 There are two basic components to NTT.
 
@@ -15,4 +15,6 @@ Responsible for sending NTT transfers forwarded through the manager on the sourc
 
 ![NTT Architecture Diagram](https://i.imgur.com/jZIFiBG.png)
 
-{% hint style="info" %} [**Learn more**](https://docs.wormhole.com/wormhole/) about the core architecture of Native Token Transfers message lifecycles {% endhint %}
+{% hint style="info" %} 
+**[Learn more](https://docs.wormhole.com/wormhole/native-token-transfers/architecture)** about the architecture of Native Token Transfers message lifecycles
+{% endhint %}
