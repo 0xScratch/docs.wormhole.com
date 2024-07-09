@@ -1,5 +1,6 @@
-## Configuration
-### Rate Limiting
+## Rate Limiting
+
+#### Rate Limiting
 
 The NTT framework provides configurable per-chain rate limits for sending and receiving token transfers. Integrators can manage limits via their own governance processes to quickly adapt to on-chain activity.
 
