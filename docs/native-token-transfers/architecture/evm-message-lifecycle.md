@@ -1,4 +1,4 @@
-### EVM Message Lifecycle
+## EVM Message Lifecycle
 
 #### 1. Transfer
 
