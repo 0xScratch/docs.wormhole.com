@@ -1,4 +1,4 @@
-### Post Deployment Actions
+### Post Deployment
 
 To offer the best user experience and ensure the most robust deployment, Wormhole contributors recommend the following after you have deployed NTT:
 
