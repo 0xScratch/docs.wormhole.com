@@ -1,5 +1,3 @@
-##Security
-    
 ### Global Accountant
 
 Global Accountant is a defense-in-depth security feature that performs integrity checks on every token transfer. This feature essentially isolates chain balances, ensuring that there cannot be more tokens burned and transferred out of a chain than were ever minted.
