@@ -39,5 +39,6 @@ Highly customizable. For example, a DeFi governance token deployed on multiple c
 - *Token Contracts:* Native contracts owned by your protocol governance.
 - *Integration:* Streamlined, customizable framework allows for more sophisticated and bespoke deployments.
 
-
-{% hint style="info" %} [Learn more](https://docs.wormhole.com/wormhole/explore-wormhole/vaa) about the core messaging primitives in the Wormhole network {% endhint %} 
+{% hint style="info" %} 
+**[Learn more](https://docs.wormhole.com/wormhole/explore-wormhole/vaa)** about the core messaging primitives in the Wormhole network 
+{% endhint %}
