@@ -1,3 +1,44 @@
+WIP
+
+{% tabs %}
+{% tab title="React" %}
+
+Configure the Wormhole Connect React component by passing a `WormholeConnectConfig` object as the `config` attribute
+
+```tsx
+import WormholeConnect, { WormholeConnectConfig } from '@wormhole-foundation/wormhole-connect';
+
+const config: WormholeConnectConfig = {
+  networks: ["ethereum", "polygon", "solana"],
+  tokens: ["ETH", "WETH", "MATIC", "WMATIC"],
+  rpcs: {
+    ethereum: "https://rpc.ankr.com/eth",
+    solana: "https://rpc.ankr.com/solana",
+  }
+}
+
+// ...
+
+<WormholeConnect config={config} />
+
+```
+{% endtab %}
+
+{% tab title="HTML Tags" %}
+
+If using the hosted version, provide `config` and `theme` as JSON-serialized strings on the mount point:
+
+```html
+<div
+  id="wormhole-connect"
+  data-config='{"tokens":["ETH","WETH","WBTC","USDCeth"]}'
+  data-theme='{"background":{"default": "#81c784"}}'
+/>
+```
+{% endtab %}
+
+{% endtabs %}
+
 ## Examples
 
 Below are some examples of different ways you can configure Connect.
@@ -358,7 +399,7 @@ Enable explorer button to allow users to search for his transactions on a given 
 |Property|description||
 |:--|:--|:--:|
 |`explorer.label`| Display text | optional, defaults to `Transactions`|
-|`explorer.href`| URL of the explorer, for instance https://wormholescan.com/. If present, the values `{:address}` is replaced with the connected wallet address| mandatory|
+|`explorer.href`| URL of the explorer, for instance https://wormholescan.io/. If present, the values `{:address}` is replaced with the connected wallet address| mandatory|
 |`explorer.target`| href target | optional, defaults to `_blank`
 
 

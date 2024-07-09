@@ -227,9 +227,9 @@ const proxyResponse =
   { headers: { "X-API-Key": YOUR_API_KEY } });
 ```
 
-A testnet Query Proxy is available at `https://testnet.ccq.vaa.dev/v1/query`
+A testnet Query Proxy is available at `https://testnet.query.wormhole.com/v1/query`
 
-A mainnet Query Proxy is available at `https://api.wormholelabs.xyz/v1/query`
+A mainnet Query Proxy is available at ` https://query.wormhole.com/v1/query`
 
 ## Verify a QueryResponse On-Chain
 
