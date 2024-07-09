@@ -1,4 +1,6 @@
-### Global Accountant
+##Security
+
+#### Global Accountant
 
 Global Accountant is a defense-in-depth security feature that performs integrity checks on every token transfer. This feature essentially isolates chain balances, ensuring that there cannot be more tokens burned and transferred out of a chain than were ever minted.
 
@@ -6,7 +8,7 @@ This CosmWasm-based module acts as a smart contract on Wormhole Gateway and ensu
 
 Contact Wormhole contributors if you are interested in having Global Accountant configured for your multichain deployment.
 
-### Governance and Upgradeability
+#### Governance and Upgradeability
 
 Integrators should implement governance mechanisms to manage the addition and removal of transceivers and to upgrade contracts using proxy patterns as demonstrated in the `upgrade` functions in the `NttManager` contracts. These processes can also set thresholds and rules for attestation and message approval.
     
