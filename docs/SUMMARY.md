@@ -76,7 +76,7 @@
 - [Security](native-token-transfers/security/README.md)
   - [Global Accountant](native-token-transfers/security/global-accountant.md)
   - [Governance and Upgradeability](native-token-transfers/security/governance-and-upgradeability.md)
-- [Custom Transceivers](native-token-transfers/custom-tranceivers/README.md)
+- [Custom Transceivers](native-token-transfers/custom-transceivers/README.md)
 - [Architecture](native-token-transfers/architecture/README.md)
   - [EVM Message Lifecycle](native-token-transfers/architecture/evm-message-lifecycle.md)
   - [Solana Message Lifecycle](native-token-transfers/architecture/solana-message-lifecycle.md)
