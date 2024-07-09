@@ -74,8 +74,6 @@
   - [Rate Limiting](native-token-transfers/configuration/rate-limiting.md)
   - [Access Control](native-token-transfers/configuration/access-control.md)
 - [Security](native-token-transfers/security/README.md)
-  - [Global Accountant](native-token-transfers/security/global-accountant.md)
-  - [Governance and Upgradeability](native-token-transfers/security/governance-and-upgradeability.md)
 - [Custom Transceivers](native-token-transfers/custom-transceivers/README.md)
 - [Architecture](native-token-transfers/architecture/README.md)
   - [EVM Message Lifecycle](native-token-transfers/architecture/evm-message-lifecycle.md)
