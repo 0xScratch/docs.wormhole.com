@@ -1,13 +1,13 @@
-### Deploy to Solana 
+## Deploy to Solana 
 
-#### 1. Install Dependencies
+#### Install Dependencies
 
 Ensure you have the following dependencies installed:
 1. [Rust](https://www.rust-lang.org/tools/install) 
 2. [Solana](https://docs.solanalabs.com/cli/install) v1.18.10
 3. [Anchor](https://www.anchor-lang.com/docs/installation) v0.29.0
 
-#### 2. Deploy your SPL Token
+#### Deploy your SPL Token
 
 If you haven't already, deploy your SPL token to Solana.
 
@@ -15,7 +15,7 @@ If you haven't already, deploy your SPL token to Solana.
 NTT versions `>=v2.0.0+solana` support SPL tokens with transfer hooks.
 {% endhint %}
 
-#### 3. Deploy NTT
+#### Deploy NTT
 
 When you deploy a Solana program, you need to hardcode the program ID (which is itself a pubkey) into the program code. The NTT CLI allows you to do this seamlessly.
 
@@ -38,13 +38,13 @@ Do you want to update the program ID in the Anchor.toml file and the lib.rs file
 
 When you answer yes to the prompt above, the NTT Solana program will compile and deploy.
 
-#### 4. Configure NTT
+#### Configure NTT
 
 As with other deployments, run the following commands to ensure that the on-chain configuration is correct and your local `deployment.json` file is synced with the on-chain state:
 - `ntt status`
 - `ntt pull`
 - `ntt push`
 
-#### 5. Set SPL token Mint Authority to NTT Program
+#### Set SPL token Mint Authority to NTT Program
 
 If deploying to Solana in `burning` mode, the final step is to set the mint authority for your SPL token to the NTT program you have deployed on Solana.
