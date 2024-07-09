@@ -1,6 +1,6 @@
-### Deploy to EVM
+## Deploy to EVM
 
-#### 1. Deploy your Token and Ensure Compatibility
+#### Deploy your Token and Ensure Compatibility
 
 If your token is not already deployed, deploy the token contract to the destination or spoke chains.
 
@@ -16,7 +16,7 @@ Later on, we will demonstrate setting mint authority to the corresponding `NttMa
 
 You can also follow the scripts in the [example NTT token](https://github.com/wormhole-foundation/example-ntt-token) repository to deploy a token contract.
 
-#### 2. Deploy NTT
+#### Deploy NTT
 
 Create a new NTT project:
 ```bash
@@ -64,7 +64,7 @@ The `ntt add-chain` command takes the following parameters:
 The NTT CLI prints detailed logs and transaction hashes, so you can see exactly what's happening under the hood.
 {% endhint %}
 
-#### 3. Configure NTT
+#### Configure NTT
 
 The NTT CLI takes inspiration from [git](https://git-scm.com/). You can run:
 - `ntt status` to check whether your `deployment.json` file is consistent with what's actually on-chain
@@ -73,7 +73,7 @@ The NTT CLI takes inspiration from [git](https://git-scm.com/). You can run:
 
 After you deploy the NTT contracts, make sure that the deployment is properly configured and your local representation is consistent with the actual on-chain state by running `ntt status` and following the instructions shown on the screen.
 
-#### 4. Set Token Minter to NTT Manager
+#### Set Token Minter to NTT Manager
 
 The final step in the deployment process is to set the NTT Manager as a minter of your token on each chain you have deployed to in `burning` mode.
 
